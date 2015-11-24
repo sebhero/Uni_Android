@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textColor="@color/red"
+            android:id="@+id/tvName" android:layout_weight="0.02"/>
+    <EditText
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName" android:layout_gravity="center_horizontal"/>
+    <TextView android:text="Phone:"
+              android:layout_width="75dp"
+              android:layout_height="wrap_content"
+              android:textColor="@color/red"
+              android:id="@+id/tvPhone"
+            />
+
+    <EditText
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPhone"
+            android:layout_gravity="center_horizontal"/>
+
+    <TextView android:text="Email:"
+              android:layout_width="75dp"
+              android:layout_height="wrap_content"
+              android:textColor="@color/red"
+              android:id="@+id/tvEmail"
+            />
+    <EditText
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail" android:layout_gravity="center_horizontal"/>
+    <TextView android:text="-----------"
+              android:layout_width="75dp"
+              android:layout_height="wrap_content"
+              android:textColor="@color/orange"
+              android:id="@+id/tvSummary"
+            />
+    <ImageView android:layout_width="81dp" android:layout_height="57dp"
+            android:background="@drawable/ic_launcher"
+            android:id="@+id/ivPhoto" android:layout_gravity="center_horizontal"
+            android:layout_margin="50dp"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="Summary"
+            android:id="@+id/btnSummary"/>
+
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:text="Change color"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnColor"/>
+</LinearLayout>
+
